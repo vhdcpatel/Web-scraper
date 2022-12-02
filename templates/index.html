@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{%block content%}
+
+<center>
+  <div class="container">
+    <form method="post">
+      <div class="form-group">
+        <label for="valueinput">
+          <h1>
+            Scrape Query
+          </h1>
+        </label>
+        <input type="text" name="query" class="form-control" id="name1"
+          placeholder="enter name of product for which you want to scrape data">
+        <small id="notice" class="form-text text-muted">You scrape data publicly available on the internet, so it is
+          safe.</small>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</center>
+
+{% endblock %}

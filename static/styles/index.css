@@ -1,0 +1,26 @@
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* border: 1px solid silver; */
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: #DCDCDC;
+  border-color: #303636;
+  color: #303636;
+}
